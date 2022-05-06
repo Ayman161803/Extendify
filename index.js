@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const fs  = require("fs-extra")
 const config = require("./neutralino.config.json")
 const {Command} = require("commander")

@@ -6,6 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin":{
+    "extendify":"./index.js"
+  },
   "dependencies": {
     "commander": "^9.2.0",
     "fs-extra": "^10.1.0"
@@ -17,7 +20,10 @@
   "keywords": [
     "Neutralino"
   ],
-  "author": "Ayman",
+  "author": {
+    "name": "Ayman",
+    "email": "mohammedaymannawaz@gmail.com"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Ayman161803/Extendify/issues"
